@@ -13,7 +13,7 @@ This repository contains the implementation of various concepts related to Sprin
 7. [Apache Kafka](#apache-kafka)
 8. [Event Driven Architecture](#event-driven-architecture)
 9. [Swagger for API Documentation](#swagger-for-api-documentation)
-10. [Prometheus](#Prometheus using Spring Boot Actuator)
+10. [Prometheus](#prometheus using spring boot actuator)
 
 ## Introduction
 
