@@ -13,6 +13,7 @@ This repository contains the implementation of various concepts related to Sprin
 7. [Apache Kafka](#apache-kafka)
 8. [Event Driven Architecture](#event-driven-architecture)
 9. [Swagger for API Documentation](#swagger-for-api-documentation)
+10. [Prometheus](#Prometheus-using-Spring-Boot-Actuator)
 
 ## Introduction
 
@@ -67,3 +68,9 @@ This repository showcases the implementation of an Event Driven Architecture usi
 Swagger is an open-source tool that simplifies the process of designing, building, documenting, and consuming RESTful APIs. It provides a user-friendly interface to explore and interact with APIs.
 
 In this repository, you will find examples of integrating Swagger and OpenAPI documentation with SpringBoot microservices for API documentation. It shows how to annotate REST controllers with Swagger annotations to generate interactive API documentation.
+
+## Prometheus using Spring Boot Actuator
+
+Spring Boot Actuator provides production-ready features for Spring Boot application. It will help us check and manage our application in the production environment. Monitoring our production environment is critical especially when we have multiple services and each service is critical for the overall system functionality and performance.
+
+Prometheus is one way of solving this problem. It is a time-series database, which stores a sequence of data points, across time. It’s generally used to store metrics and performance data from your applications. And this allows you to perform time-series analysis of metrics.
