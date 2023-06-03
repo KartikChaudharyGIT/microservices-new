@@ -14,6 +14,7 @@ This repository contains the implementation of various concepts related to Sprin
 8. [Event Driven Architecture](#event-driven-architecture)
 9. [Swagger for API Documentation](#swagger-for-api-documentation)
 10. [Prometheus](#Prometheus-using-Spring-Boot-Actuator)
+11. [Grafana](#Grafana)
 
 ## Introduction
 
@@ -74,3 +75,7 @@ In this repository, you will find examples of integrating Swagger and OpenAPI do
 Spring Boot Actuator provides production-ready features for Spring Boot application. It will help us check and manage our application in the production environment. Monitoring our production environment is critical especially when we have multiple services and each service is critical for the overall system functionality and performance.
 
 Prometheus is one way of solving this problem. It is a time-series database, which stores a sequence of data points, across time. It’s generally used to store metrics and performance data from your applications. And this allows you to perform time-series analysis of metrics.
+
+## Grafana
+
+A Grafana dashboard supports multiple panels in a single grid. You can visualize results from multiple data sources simultaneously. It is a powerful open-source analytical and visualization tool that consists of multiple individual panels arranged in a grid.
